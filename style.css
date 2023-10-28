@@ -1,0 +1,51 @@
+body {
+	height: 1800px;
+}
+li {
+	display: inline-block;
+}
+.header-wraper {
+	background-color: hotpink;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
+}
+.wraper {
+	width: 600px;
+	height: 600px;
+	background-color: green;
+	position: relative;
+}
+.box:nth-child(1) {
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 50px;
+	z-index: 2;
+}
+.box:nth-child(2) {
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+}
+.text-absolute {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+.image-wraper {
+	position: absolute;
+}
+.icon {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	height: 80px;
+}
